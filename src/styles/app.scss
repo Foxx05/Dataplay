@@ -40,6 +40,7 @@ p{
 }
 .img--header{
     width: 100%;
+    margin-bottom: 73px;
 }
 .nav-vertical {
     display: flex;
@@ -119,7 +120,7 @@ p{
     margin-bottom: 23px;
 }
 
-.img--analyse{
+.img--code{
     width: 50%;
     grid-column: 1/-1;
     margin-bottom: 23px;
@@ -132,7 +133,7 @@ p{
     grid-column: 1/-1;
     text-align: center;
     margin: 0;
-    background: linear-gradient(0.25turn, #c07615, #f3a200);
+    background: linear-gradient(0.25turn, #98b8c2, #1da6c5);
     background-clip: text;
     color: transparent;
 }
@@ -315,7 +316,13 @@ p{
         margin: 0 auto;
         width: 100%;
     }
- 
+    // img{
+    //     width: 100%;
+    //     transition: 0.3s ease;
+    // }
+    // img:hover{
+    //     transform: scale(1.8);
+    // }
 
     .title{
         font-size: 47px;
@@ -328,7 +335,6 @@ p{
         width: 90%;
         max-width: 2500px;
         word-wrap: break-word;
-        /*force le titre à rester sur une ligne - utilisation ChatGPT*/
     }
 
     .p--col2col6{
@@ -345,10 +351,8 @@ p{
     .p--col3col7{
         grid-column: 3/-1;
     }
-    .img--analyse{
-        padding-top: 100px;
+    .img--code{
         grid-column: 1/3;
-        grid-row: 2/6;
         width: 100%;
         margin: 0;
     }
@@ -356,7 +360,7 @@ p{
         grid-column: 4/-1;
     }
     .p--chiffre{
-        grid-column: 1/4;
+        grid-column: 1/-1;
         z-index: 10;
         grid-row: 6/-1;
     }
@@ -366,7 +370,6 @@ p{
     }
     .p--col1col6{
         grid-column: 1/-3;
-        font-weight: 600;
     }
 
     .img--repartition{
@@ -388,9 +391,7 @@ p{
         grid-column: 5/-1;
         grid-row: 4/6;
     }
-    .img--code{
-        grid-column: 5/-1;
-    }
+
     .problemes-container{
         grid-column: 2/-1;
     }
