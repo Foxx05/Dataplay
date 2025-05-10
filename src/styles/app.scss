@@ -236,7 +236,7 @@ footer{
 
 .gridcol {
     padding-left: 80px;
-    padding-right: 96px;
+    padding-right: 80px;
 }
 
 }
@@ -376,7 +376,7 @@ p{
         display: grid;
         justify-content: center;
         font-size: 0;
-        margin-bottom: 97px;
+        margin-bottom: 73px;
         gap: 10px;
     }
     .img--avion1{
@@ -394,8 +394,8 @@ p{
         width: 100%;
         grid-row: 1/-1;
     }
-    .img--repartition{
-        grid-column: 1/4;
+    .img--para{
+        grid-column: 6/-1;
         margin: 0;
         grid-row: 2/4;
     }
